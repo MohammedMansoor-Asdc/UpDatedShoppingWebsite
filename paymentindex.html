@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CartWonders</title>
+    <link rel="stylesheet" href="paymentstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <a href="homeindex.html" id="heading"><h1 style="font-size: 44px;" align="center">Cart Wonders</h1></a>
+    <hr>
+    <div class="container">
+        <div class="Billing-item">
+            <h1>Billing Address</h1>
+            <label for="name">Full Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required>
+            <br><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            <br><br>
+            <label for="Address">Address</label><br>
+            <input type="text" name="address" id="address" placeholder="Enter Your Address" required>
+            <br><br>
+            <label for="city">City</label><br>
+            <input type="text" name="city" id="city" placeholder="Enter Your City" required>
+            <br><br>
+            <label for="zipcode">Zip Code</label><br>
+            <input type="number" name="zipcode" id="zipcode" placeholder="Enter Your zipcode" required>
+            <br><br>
+            <label for="state">State</label>
+            <select name="country" id="country" required>
+                <option>Select Your state</option>
+                <option value="telangana">Telangana</option>
+                <option value="andhrapradesh">Andhra Pradesh</option>
+                <option value="Goa">Goa</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+            <br><br>
+            <label for="country">Country</label><br>
+            <input type="text" name="country" id="country" placeholder="Enter Your Country" required>
+            <br><br>
+            <input type="checkbox" name="sameadd" id="sameadd">
+            Shipping Address Same As Billing Address
+        </div>
+
+        <div class="payment-item">
+            <h3>Accepted Cards</h3>
+            <i class="fa fa-cc-discover" style="font-size:36px;color:orange;"></i>
+            <i class="fa fa-cc-visa" style="font-size:36px;color: darkblue;"></i>
+            <i class="fa fa-cc-paypal" style="font-size:36px; color: lightblue;"></i>
+            <i class="fa fa-cc-amex" style="font-size:36px; color: blue;"></i>
+            <br><br>
+            <label for="name-card">Name On Card</label><br>
+            <input type="text" name="name-card" id="name-card" placeholder="Enter Your Name" required>
+            <br><br>
+            <label for="card-no">Card No</label><br>
+            <input type="text" name="card-no" id="card-no" placeholder="Enter Your Card No" required>
+            <br><br>
+            <label for="exp-month">Exp-Month</label><br>
+            <input type="text" name="exp-month" id="exp-month" placeholder="Enter Your Exp Month" required>
+            <br><br>
+            <label for="exp-year">Exp-Year</label><br>
+            <input type="text" name="exp-year" id="exp-year" placeholder="Enter Your Exp Year" required>
+            <br><br>
+            <label for="cvv">CVV</label><br>
+            <input type="text" name="cvv" id="cvv" placeholder="Enter Your CVV" required>
+            <br><br><br><br><br>
+            <div class="btn">
+                <a href="submittedindex.html">Continue To CheckOut</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

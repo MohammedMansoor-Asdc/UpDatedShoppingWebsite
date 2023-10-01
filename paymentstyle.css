@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(112, 216, 216);
+    
+}
+
+#heading{
+    color: black;
+}
+
+.container{
+    height: 620px;
+    width: 50%;
+    margin: 90px auto;
+    border: 2px solid white;
+    background-color: rgb(167, 167, 167);
+    display: flex;
+    transition: 1.5s;
+    justify-content: center;
+}
+
+.container:hover{
+    background-color: white;
+    box-shadow: 1px 1px 20px 14px greenyellow;
+    border: 2px solid white;
+    scale: 1.1;
+}
+
+/* h1{
+
+} */
+
+.Billing-item{
+    border-right: 2px solid rgb(112, 216, 216);
+    padding: 100px;
+    height: 350px;
+}
+
+.Billing-item:hover{
+    border-right: 2px solid white;
+}
+
+.payment-item{
+    padding: 100px;
+}
+
+.Billing-item input{
+    padding: 1px;
+    background-color: rgb(236, 232, 232);
+    transition: 1.5s;
+}
+
+.Billing-item input:hover{
+    background-color: white;
+    box-shadow: 1px 1px 20px 1px black;
+    scale: 1.1;
+}
+
+.payment-item input{
+    padding: 2px;
+    background-color: rgb(236, 232, 232);
+    transition: 1.5s;
+}
+
+.payment-item input:hover{
+    background-color: white;
+    box-shadow: 1px 1px 20px 1px black;
+    scale: 1.1;
+}
+
+.btn a{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    margin: 4px;
+    background-color: rgb(110, 110, 255);
+    border-radius:45px;
+    transition: 1.5s;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+} 
+
+.btn a:hover{
+    background-color: white;
+    box-shadow: 1px 1px 20px 1px black;
+    color: black;
+    scale: 1.1;
+}
