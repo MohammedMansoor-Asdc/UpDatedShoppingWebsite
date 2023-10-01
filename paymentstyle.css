@@ -22,17 +22,20 @@ body{
     background-color: white;
     box-shadow: 1px 1px 20px 14px greenyellow;
     border: 2px solid white;
-    scale: 1.1;
+    /* scale: 1.1; */
 }
 
-/* h1{
-
-} */
+#heading{
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    margin-left: 45%;
+}
 
 .Billing-item{
     border-right: 2px solid rgb(112, 216, 216);
     padding: 100px;
-    height: 350px;
+    height: 423px;
 }
 
 .Billing-item:hover{
@@ -46,25 +49,22 @@ body{
 .Billing-item input{
     padding: 1px;
     background-color: rgb(236, 232, 232);
-    transition: 1.5s;
+    /* transition: 1.5s; */
 }
 
 .Billing-item input:hover{
     background-color: white;
-    box-shadow: 1px 1px 20px 1px black;
-    scale: 1.1;
+    /* box-shadow: 1px 1px 20px 1px black; */
 }
 
 .payment-item input{
     padding: 2px;
     background-color: rgb(236, 232, 232);
-    transition: 1.5s;
 }
 
 .payment-item input:hover{
     background-color: white;
-    box-shadow: 1px 1px 20px 1px black;
-    scale: 1.1;
+    
 }
 
 .btn a{

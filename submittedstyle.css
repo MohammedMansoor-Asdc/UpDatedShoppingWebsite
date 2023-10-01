@@ -9,6 +9,10 @@ body {
 
 #heading{
     color: black;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 45%;
 }
 
 .container {
@@ -25,7 +29,7 @@ body {
 .container:hover{
     background-color: white;
     border: 1px solid white;
-    scale: 1.1;
+    /* scale: 1.1; */
     box-shadow: 1px 1px 20px 14px greenyellow;
 }
 
@@ -40,8 +44,8 @@ body {
 
 #item-complected {
     border: 1px solid white;
-    border-radius: 3px;
-    padding: 3px;
+    border-radius: 5px;
+    padding: 10px;
     text-decoration: none;
     color: black;
     background-color: aqua;

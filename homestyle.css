@@ -9,8 +9,10 @@ body {
 }
 
 #heading{
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
+    margin-left: 50%;
+    display: inline;
 
 }
 
@@ -36,6 +38,11 @@ body {
     background-color: rgb(245, 245, 245);
     box-shadow: 1px 1px 20px 14px greenyellow;
     scale: 1.1;
+}
+
+.item-img{
+    height: 226.3;
+    width: 339.8;
 }
 
 .watch img {
