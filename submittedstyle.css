@@ -59,3 +59,16 @@ body {
     scale: 1.1;
     border: white;
 }
+
+.item-productlist{
+    background-color: gray;
+    height: 280px;
+    width: 900px;
+    margin-left: 455px;
+}
+
+.item-productlist img{ 
+    height: 230px;
+    width: 430px;
+    border-radius: 5%;
+}

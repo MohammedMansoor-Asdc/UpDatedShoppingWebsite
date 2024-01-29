@@ -11,7 +11,7 @@ body {
 #heading{
     text-decoration: none;
     color: black;
-    margin-left: 50%;
+    margin-left: 45%;
     display: inline;
 
 }
@@ -27,10 +27,10 @@ body {
     width: 20%;
     border-radius: 2%;
     background-color: rgb(227, 247, 247);
-    box-shadow: 1px 1px 20px 14px rgb(222, 248, 252);
+    box-shadow: 1px 1px 20px 14px rgb(163, 163, 255);
     padding: 2px 2px;
     position: relative;
-    transition: 1.5s;
+    transition: 255ms;
 
 }
 
